@@ -15,12 +15,18 @@ class TestClass {
     print(n);
   }
 
+// conditional statements
+
+void conditionalStmts(){
+  print('If, if else, else-if ladder, nested if and switch case');
+}
   // looping
   void looping() {
     for (var temp, i = 0, j = 1; j < 30; temp = i, i = j, j = i + temp) {
       print('${j}');
       print(j);
     }
+    conditionalStmts();
   }
 
 // Operators
