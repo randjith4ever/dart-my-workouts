@@ -1,4 +1,9 @@
 class CascadeOperator {
+  CascadeOperator() {
+    print(
+        """The cascade ( .. ) operator can be used to issue a sequence of calls via an object""");
+  }
+
   void test_method() {
     int num = 50;
     print(
